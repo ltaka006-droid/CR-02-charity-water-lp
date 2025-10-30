@@ -36,7 +36,7 @@ Fonts:
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url('https://via.placeholder.com/1500x900'); /* Replace with your image later */
+  background-image: url('./img/Madagascar_2019_CG-0366-2.jpg'); /* Replace with your image later */
   background-size: cover;
   background-position: center;
   color: white;
@@ -68,15 +68,20 @@ Fonts:
   align-items: center;
 }
 
+/* ...existing code... */
 .logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #fff;
+  display: inline-block;
+  width: 220px;
+  height: 48px;
+  background-image: url('./img/charitywater_logo_horizontal_WhiteText.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  overflow: hidden;
+  text-indent: -9999px; /* hides the text while keeping it in the DOM */
 }
+/* ...existing code... */
 
-.logo span {
-  color: #f8c42f;
-}
 
 .btn {
   background-color: #f8c42f;
